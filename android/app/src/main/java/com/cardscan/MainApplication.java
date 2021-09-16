@@ -57,7 +57,8 @@ public class MainApplication extends Application implements ReactApplication {
       RNCardscanModule.enableExpiryExtraction = false;
 
       // set to true to display an "Enter Card Manually" button
-      RNCardscanModule.enableEnterCardManually = false;
+      RNCardscanModule.enableEnterCardManually = true;
+
   }
 
   /**
